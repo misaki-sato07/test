@@ -15,7 +15,7 @@ jobs:
     steps:
     #-- Gitリポジトリの内容を取得 --#
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     #-- Slack通知 --#
     # 成功
